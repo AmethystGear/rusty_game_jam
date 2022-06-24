@@ -1,0 +1,35 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Spatial",
+"class": "BoneHandle",
+"language": "GDScript",
+"path": "res://addons/bone_editor/BoneHandle.gd"
+} ]
+_global_script_class_icons={
+"BoneHandle": ""
+}
+
+[application]
+
+config/name="rusty_game_jam_godot"
+run/main_scene="res://main.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+rust_panic_hook="*res://rust_panic_hook.gd"
+DebugDraw="*res://addons/zylann.debug_draw/debug_draw.gd"
+
+[rendering]
+
+quality/depth/hdr=false
+environment/default_environment="res://default_env.tres"

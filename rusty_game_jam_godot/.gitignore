@@ -1,0 +1,9 @@
+.dropbox.attr
+Thumbs.db
+.import/*
+*.import
+*/*.import
+model/*
+TestScene.tscn
+amc_loader/*
+neo_kisacel/*
