@@ -12,3 +12,4 @@ crate-type = ["cdylib"]
 gdnative = "0.10"
 backtrace = "0.3"
 itertools = "0.10.3"
+rand = "0.8.5"
